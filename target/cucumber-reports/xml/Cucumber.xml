@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="176.153" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Smartwatch Shopping" name="Search and purchase smartwatches from multiple brands - #1.1" time="53.151">
+<system-out><![CDATA[
+Given I wait for the Amazon homepage to load completely.....................passed
+Then I should see the Amazon page title contains "Amazon"...................passed
+When I search for "smartwatches" in the search box..........................passed
+And I click on the search button............................................passed
+Then I should see search results for smartwatches...........................passed
+When I apply brand filter for "Noise".......................................passed
+And I set price filter with minimum price "1000" and maximum price "5000"...passed
+Then all displayed smartwatches should have prices between "1000" and "5000" rupees.passed
+When I sort the search results by price from high to low....................passed
+And I click on the product with the highest price...........................passed
+Then the product details page should open in a new window...................passed
+When I switch to the new product window.....................................passed
+And I verify the product details are displayed..............................passed
+And I add the product to my cart............................................passed
+And the cart count should be updated........................................passed
+When I close the new window and return to main window.......................passed
+Then I should be back on the search results page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Smartwatch Shopping" name="Search and purchase smartwatches from multiple brands - #1.2" time="35.51">
+<system-out><![CDATA[
+Given I wait for the Amazon homepage to load completely.....................passed
+Then I should see the Amazon page title contains "Amazon"...................passed
+When I search for "smartwatches" in the search box..........................passed
+And I click on the search button............................................passed
+Then I should see search results for smartwatches...........................passed
+When I apply brand filter for "boAt"........................................passed
+And I set price filter with minimum price "1000" and maximum price "2000"...passed
+Then all displayed smartwatches should have prices between "1000" and "2000" rupees.passed
+When I sort the search results by price from high to low....................passed
+And I click on the product with the highest price...........................passed
+Then the product details page should open in a new window...................passed
+When I switch to the new product window.....................................passed
+And I verify the product details are displayed..............................passed
+And I add the product to my cart............................................passed
+And the cart count should be updated........................................passed
+When I close the new window and return to main window.......................passed
+Then I should be back on the search results page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Smartwatch Shopping" name="Search and purchase smartwatches from multiple brands - #1.3" time="43.526">
+<system-out><![CDATA[
+Given I wait for the Amazon homepage to load completely.....................passed
+Then I should see the Amazon page title contains "Amazon"...................passed
+When I search for "smartwatches" in the search box..........................passed
+And I click on the search button............................................passed
+Then I should see search results for smartwatches...........................passed
+When I apply brand filter for "Fire-Boltt"..................................passed
+And I set price filter with minimum price "1500" and maximum price "1800"...passed
+Then all displayed smartwatches should have prices between "1500" and "1800" rupees.passed
+When I sort the search results by price from high to low....................passed
+And I click on the product with the highest price...........................passed
+Then the product details page should open in a new window...................passed
+When I switch to the new product window.....................................passed
+And I verify the product details are displayed..............................passed
+And I add the product to my cart............................................passed
+And the cart count should be updated........................................passed
+When I close the new window and return to main window.......................passed
+Then I should be back on the search results page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Smartwatch Shopping" name="Search and purchase smartwatches from multiple brands - #1.4" time="43.511">
+<system-out><![CDATA[
+Given I wait for the Amazon homepage to load completely.....................passed
+Then I should see the Amazon page title contains "Amazon"...................passed
+When I search for "smartwatches" in the search box..........................passed
+And I click on the search button............................................passed
+Then I should see search results for smartwatches...........................passed
+When I apply brand filter for "Fastrack"....................................passed
+And I set price filter with minimum price "1800" and maximum price "2500"...passed
+Then all displayed smartwatches should have prices between "1800" and "2500" rupees.passed
+When I sort the search results by price from high to low....................passed
+And I click on the product with the highest price...........................passed
+Then the product details page should open in a new window...................passed
+When I switch to the new product window.....................................passed
+And I verify the product details are displayed..............................passed
+And I add the product to my cart............................................passed
+And the cart count should be updated........................................passed
+When I close the new window and return to main window.......................passed
+Then I should be back on the search results page............................passed
+]]></system-out>
+</testcase>
+</testsuite>

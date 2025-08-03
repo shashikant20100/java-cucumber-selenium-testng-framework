@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report theme: standard, dark -->
+        <theme>dark</theme>
+
+        <!-- Document encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for script and stylesheets -->
+        <protocol>https</protocol>
+
+        <!-- Title of the document -->
+        <documentTitle>Cucumber Selenium TestNG Automation Report</documentTitle>
+
+        <!-- Report name - displayed at top-nav -->
+        <reportName>Test Execution Report</reportName>
+
+        <!-- Global date format override -->
+        <dateFormat>MMM dd, yyyy HH:mm:ss</dateFormat>
+
+        <!-- Global time format override -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- Custom CSS -->
+        <css>
+            .brand-logo { color: #fff; }
+            .suite-started-time { color: #5cb85c; }
+            .suite-ended-time { color: #d9534f; }
+        </css>
+
+        <!-- Custom JavaScript -->
+        <js>
+            // Custom JavaScript for enhanced functionality
+        </js>
+    </configuration>
+</extentreports>
+
